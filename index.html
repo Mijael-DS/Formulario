@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de formularios</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        <section class="formulario">
+            <form autocomplete="on">
+                <fieldset>
+                    <label>Ingrese nombre</label>
+                    <br>
+                    <input type="text" required maxlength="50" minlength="10"   autocomplete="additional-name" autofocus placeholder="Nombre y Apellido">
+                    <br>
+                    <label>Mensaje</label>
+                    <br>
+                    <!-- cols (columna) y row(filas) -->
+                    <textarea name="mensaje" id="mensaje" autofocus cols="30" rows="10" placeholder="Escriba un comentario"></textarea>
+                    <br>
+                    <input type="submit">
+                    <br>
+                </fieldset>
+                
+                <br>
+
+                <fieldset>
+                    <input type="number" min="10" max="100" step="10">
+                    <br>
+                    <input type="range" min="18" max="50" step="1">
+                    <br>
+                    <input type="password" placeholder="ingrese contraseña">
+                    <br>
+                    <input type="radio" name="opciones">
+                    <label>Masculino</label>
+                    <input type="radio" name="opciones">
+                    <label>Femenino</label>
+                    <br>
+                </fieldset>
+                    
+                <h3>Selecciona los productos de interes</h3>
+                <br>
+                <input type="checkbox" name="manzana">
+                <label>Manzana</label>
+                <input type="checkbox" name="naranja">
+                <label>Naranja</label>
+                <input type="checkbox" name="fresa">
+                <label>Freza</label>
+                <br>
+                <h3>Selecciona el pais</h3>
+                <br>
+                <select name="paises" id="paises">
+                    <option value="perusalen">perusalen</option>
+                    <option value="argentino">argentino</option>
+                    <option value="colombia">colombia</option>
+                </select>
+                <br>
+                <p>selecciona una fecha
+                    <br>
+                    <input type="date">
+                </p>
+            </form>
+        </section>
+        <section class="mapas">
+            <div class="ubicacion">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15603.223980257551!2d-77.0248363!3d-12.1254227!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81c605ea5e1%3A0x17328a8b49d37914!2sISIL%20-%20Miraflores!5e0!3m2!1ses-419!2spe!4v1730136163122!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section class="tablas">
+            <div class="tabla01">
+                <table>
+                    <caption>Tabla</caption>
+                    <tr>
+                        <th>codigo</th>
+                        <th>nombre</th>
+                        <th>apellido</th>
+                    </tr>
+                    <tr>
+                        <td>0001</td>
+                        <td>jose</td>
+                        <td>lopez</td>
+                    </tr>
+                    <tr>
+                        <td>0002</td>
+                        <td>bryan</td>
+                        <td>castillo</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

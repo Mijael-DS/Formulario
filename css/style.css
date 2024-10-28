@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.formulario {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-color: aqua;
+}
+
+.mapas {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-color: rgb(110, 136, 15);
+    padding: 10px;
+}
+
+.tablas {
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    background-color: rgb(5, 152, 154);
+    padding: 10px;
+}
+
+
+input[type="text"] {
+    width: 30%;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+    border: dashed beige 4px;
+    transition: width 0.4s ease;
+}
+
+input[type="text"]:focus {
+    width: 50%;
+}
+
+input[type="password"] {
+    width: 30%;
+    padding: 20px;
+    border: solid tomato 2px;
+    background-color: rgb(255, 154, 3);
+}
+
+.ubicacion  {
+    width: 640px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background-color: rgb(156, 156, 156);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(125, 125, 125);
+}
+
+.tabla01 {
+    width: 640px;
+    height: auto;
+    background-color: azure;
+    padding: 5px;
+    text-align: center;
+    margin: auto auto;
+    border-radius: 8px;
+
+}
+
+table, tr, th, td {
+    border: solid black 2px;
+    border-collapse: collapse;
+    background-color: wheat;
+}
+table {
+    width: 100%;
+}
+
+th {
+    background-color: burlywood;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+    color: brown;
+}
